@@ -1,6 +1,10 @@
+/* Apply background to the entire body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f4f4f9;  /* Light background color for the page */
+    background-image: url('https://images.pexels.com/photos/6256066/pexels-photo-6256066.jpeg'); /* Replace with your image URL */
+    background-size: cover;  /* Cover the entire page */
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,15 +12,17 @@ body {
     margin: 0;
 }
 
+/* Style for the game container */
 .game-container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent white background */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
+/* Button styling */
 button {
     padding: 10px 15px;
     background-color: #4CAF50;
@@ -31,6 +37,7 @@ button:hover {
     background-color: #45a049;
 }
 
+/* Input field styling */
 input {
     padding: 10px;
     margin-top: 10px;
@@ -39,11 +46,13 @@ input {
     border-radius: 5px;
 }
 
+/* Feedback text styling */
 #feedback {
     margin-top: 10px;
     font-weight: bold;
 }
 
+/* Score and result container styling */
 #score-container {
     margin-top: 20px;
 }

@@ -1,10 +1,9 @@
 /* Apply background to the entire body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;  /* Light background color for the page */
-    background-image: url('https://images.pexels.com/photos/6256066/pexels-photo-6256066.jpeg'); /* Replace with your image URL */
+    background-image: url('https://images.pexels.com/photos/6256066/pexels-photo-6256066.jpeg');
     background-size: cover;  /* Cover the entire page */
-    background-position: center;
+    background-position: center;  /* Center the image */
     display: flex;
     justify-content: center;
     align-items: center;
